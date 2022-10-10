@@ -1,0 +1,73 @@
+[
+  {
+    "session_name": "your_name",
+    "directory": "/path/to/your/project/directory",
+    "windows": [
+      {
+        "window_name": "window1",
+        "commands":[
+          "vim"
+        ]
+      },
+      {
+        "window_name": "window2",
+        "commands": [
+          "echo 'example of commands!'",
+          "ls"
+        ]
+      }
+    ]
+  },
+  {
+    "session_name": "my_telegram_bot",
+    "directory": "/home/user/projects/my_telegram_bot",
+    "windows": [
+      {
+        "window_name": "nvim",
+        "commands": [
+          "source ./.venv/bin/activate",
+          "ranger"
+        ]
+      },
+      {
+        "window_name": "term",
+        "commands": [
+          "source ./.venv/bin/activate"
+        ]
+      },
+      {
+        "window_name": "run",
+        "commands": [
+          "source ./.venv/bin/activate",
+          "python server.py"
+        ]
+      }
+    ]
+  },
+  {
+    "session_name": "my_django_project",
+    "directory": "/home/user/projects/my_django_project",
+    "windows": [
+      {
+        "window_name": "nvim",
+        "commands": [
+          "source ./.venv/bin/activate",
+          "vi"
+        ]
+      },
+      {
+        "window_name": "term",
+        "commands": [
+          "source ./.venv/bin/activate"
+        ]
+      },
+      {
+        "window_name": "run",
+        "commands": [
+          "source ./.venv/bin/activate",
+          "python ./manage.py runserver 127.0.0.1:8000"
+        ]
+      }
+    ]
+  }
+]
