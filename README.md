@@ -6,11 +6,11 @@ You can fill your workspaces!
 
 |Rofi list of workspaces|
 |--|
-|![img](https://github.com/Speskov2000/files/blob/master/tmux-workspace-manager/rofi_tmuxwm.png)|
+|![img](.readme_static/rofi_tmuxwm.png)|
 
 |Example 1: Opened dotfiles workspace|Example 2: Opened async workspace|
 |--|--|
-|![img](https://github.com/Speskov2000/files/blob/master/tmux-workspace-manager/tmux-dotfiles.png)|![img](https://github.com/Speskov2000/files/blob/master/tmux-workspace-manager/tmux-async.png)|
+|![img](.readme_static/tmux-dotfiles.png)|![img](.readme_static/tmux-async.png)|
 
 
 
