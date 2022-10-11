@@ -4,13 +4,13 @@ This rofi-script allows you to start saved workspaces instantly
 
 You can fill your workspaces!
 
-|Rofi list of workspaces|
-|--|
-|![img](.readme_static/rofi_tmuxwm.png)|
+| Rofi list of workspaces                |
+|----------------------------------------|
+| ![img](.readme_static/rofi_tmuxwm.png) |
 
-|Example 1: Opened dotfiles workspace|Example 2: Opened async workspace|
-|--|--|
-|![img](.readme_static/tmux-dotfiles.png)|![img](.readme_static/tmux-async.png)|
+| Example 1: Opened dotfiles workspace     | Example 2: Opened async workspace     |
+|------------------------------------------|---------------------------------------|
+| ![img](.readme_static/tmux-dotfiles.png) | ![img](.readme_static/tmux-async.png) |
 
 
 
