@@ -21,13 +21,13 @@ You can fill your workspaces!
   git clone https://github.com/linux-mastery/tmux-workspace-manager.git
   cd tmux-workspace-manager
   ```
-- Create a symlink to the `tmuxwm` script & `workspaces.json`:
+- Create a symlink to the `tmuxwm.sh` script & `workspaces.json`:
   ```
   # Create directories if they don't exist or select custom location and change paths
-  ln -sf ./tmuxwm ~/.config/rofi/scripts/tmuxwm
+  ln -sf ./tmuxwm.sh ~/.config/rofi/scripts/tmuxwm.sh
   ln -sf ./workspaces.json ~/.config/rofi/data/workspaces.json
   ```
-- Change path to your `workspaces.json` on 10 line in `./tmuxwm`:
+- Change path to your `workspaces.json` on 10 line in `./tmuxwm.sh`:
   ```
   data="/home/user/.config/rofi/data/workspaces.json"
   ```
@@ -38,7 +38,7 @@ You can fill your workspaces!
 ## Usage
 To start it, run the file:
 ```
-./tmuxwm
+./tmuxwm.sh
 ```
 Or setup your own hotkey and run it!
 
